@@ -1,0 +1,66 @@
+.contentbox .content{
+  box-sizing: border-box;
+  width: 70%;
+  float: left;
+  padding: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: tomato;
+  color: white;
+  overflow: hidden;
+
+}
+header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header ul li{
+  // display: inline-block;
+  float: left;
+}
+header ul li a{
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background: seagreen;
+  border-right: 1px solid #fff;
+  transition: all 1s;
+}
+header ul li:last-child a{
+  border-right: none;
+}
+header ul li a:hover{
+  background: blue;
+  transition: all 1s;
+}
+
+.contentbox {
+  clear: both;
+  background: teal;
+  overflow: hidden;
+  color: white;
+}
+.contentbox aside{
+  float: left;
+  width: 30%;
+}
+
+
+footer {
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background: yellow;
+}
+
+aside h2 {
+  color: maroon;
+}
